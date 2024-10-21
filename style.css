@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* bodies default setting */
+
+body{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav bar of the webpage */
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    background-color: #ffff;
+    height: 96px;
+    border: none;
+    box-shadow: 0px 7.99982px 23.9995px rgba(149, 157, 165, 0.2);
+}
+
+#nav-logo{
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.nav-buttons{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+
+.nav-buttons button{
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.arrow{
+    height: 20px;
+}
+
+
+
+.contact{
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #7839EE, #0158F7);
+}
+
+/* body of the Webpage */
+
+
+/* phase1 */
+.main-frame h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 90px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.main-frame h1 span{
+
+
+font-family: 'Mona Sans' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 90px;
+text-align: center;
+background: linear-gradient(to right, #0158F7, #7839EE);
+-webkit-background-clip: text;
+color: transparent;
+
+}
+
+.main-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+}
+
+.email-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-bar input{
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
+    border-color: #D0D5DD;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    flex: none;
+    flex-grow: 0;
+
+
+}
+
+
+.email-bar button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 90px;
+    background: linear-gradient(to right, #7839EE, #0158F7);
+}
+
+.image1{
+    height: 300px;
+    width: 620px;
+    border-radius: 20px;
+}
+
+
+/* 2nd Phase started from here */
+
+.phasetwo{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+margin-top: 100px;
+}
+
+.phasetwo h1{
+font-family: 'Mona Sans' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #000000;
+}
+
+.company-images{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+}
+
+
+.company-images img{
+    height: 30px;
+    width: 80px;
+    border:1px solid #F1F2F5;
+}
+
+/* Phase three */
+
+.phasethree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.phasethree h1 ,span{
+    font-family: 'Mona Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.item-1{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.item-1 h1 #headmarks{
+    background: linear-gradient(to right, #0158F7, #7839EE);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+}
+
+.item-1 h1{
+    font-size: 35px;
+}
+
+.item-1 .itemwords p{
+    font-family: 'Mona sans' sans-serif;
+    font-size: 15px;
+
+}
+
+
+.item-1 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.item-1 #bluemarks{
+    font-weight: 400;
+    font-size: 15px;
+    color: #0158F7;
+}
+#bluemarks .bx{
+    align-items: center;
+}
+
+/* item-2 */
+
+.item-2{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 150px;
+}
+
+
+.item-2 h1 #headmarks{
+    background: linear-gradient(to right, #0158F7, #7839EE);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+}
+
+.item-2 h1{
+    font-size: 35px;
+}
+
+.item-2 .itemwords p{
+    font-family: 'Mona sans' sans-serif;
+    font-size: 15px;
+
+}
+
+
+.item-2 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.item-2 #bluemarks{
+    font-weight: 400;
+    font-size: 15px;
+    color: #0158F7;
+}
+#bluemarks .bx{
+    align-items: center;
+}
+
+/* item-3 */
+
+.item-3{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 150px;
+}
+
+.item-3 h1 #headmarks{
+    background: linear-gradient(to right, #0158F7, #7839EE);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+}
+
+.item-3 h1{
+    font-size: 35px;
+}
+
+.item-3 .itemwords p{
+    font-family: 'Mona sans' sans-serif;
+    font-size: 15px;
+
+}
+
+
+.item-3 img{
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.item-3 #bluemarks{
+    font-weight: 400;
+    font-size: 15px;
+    color: #0158F7;
+}
+#bluemarks .bx{
+    align-items: center;
+}
+
+/* item-4 starts */
+
+
+.item-4{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 150px;
+}
+
+.item-4 h1 #headmarks{
+    background: linear-gradient(to right, #0158F7, #7839EE);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+}
+
+.item-4 h1{
+    font-size: 35px;
+}
+
+.item-4 .itemwords p{
+    font-family: 'Mona sans' sans-serif;
+    font-size: 15px;
+
+}
+
+
+.item-4 img{
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.item-4 #bluemarks{
+    font-weight: 400;
+    font-size: 15px;
+    color: #0158F7;
+}
+#bluemarks .bx{
+    align-items: center;
+}
+
+/* phase 4 starts here */
+
+
+.phasefour{
+ 
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    top: 3200px;
+    gap: 100px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #5D85FF, #f08f8f);
+
+}
+
+.booksec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booksec h1{
+    font-weight: 700;
+    font-family: 'Mona sans' sans-serif;
+    font-size: 35px;
+}
+
+.otherHalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.otherHalf input{
+    border: none;
+    border-radius: 2px;
+    font-size: small;
+    width: 200px;
+    padding: 6px;
+}
+
+.otherHalf button{
+    border: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    font-size: small;
+}
+
+footer{
+    display: flex;
+    margin-top: 400px;
+    background-color: #0C111D;
+    color: #ffff;
+}
